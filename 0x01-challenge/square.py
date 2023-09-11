@@ -3,6 +3,7 @@
 Class Square Module that defines width and height
 """
 
+
 class Square():
     """
     Attr:
@@ -14,7 +15,6 @@ class Square():
         PerimeterOfMySquare(self)
         __str__(self)
     """
-
 
     def __init__(self, width=0, height=0):
         """Initialize square instance with width and height"""
