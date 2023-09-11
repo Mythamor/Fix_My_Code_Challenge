@@ -16,8 +16,7 @@ class Square():
         __str__(self)
     """
 
-
-    def __init__(self, width=0, height =0):
+    def __init__(self, width=0, height=0):
         """Initialize square instance with width and height"""
         self.width = width
         self.height = height
@@ -54,7 +53,6 @@ class Square():
         if value < 0:
             raise ValueError("height must be >= 0")
         self.__height = value
-
 
     def area_of_my_square(self):
         """ Area of the square """
