@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 class Square():
-    
+
     def __init__(self, width=0, height=0):
         self._width = width
         self._height = height
@@ -37,6 +37,7 @@ class Square():
 
     def __str__(self):
         return "{}/{}".format(self.width, self.height)
+
 
 if __name__ == "__main__":
 
